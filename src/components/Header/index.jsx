@@ -15,6 +15,7 @@ const Header = () => {
             smooth={true}
             offset={-100}
             duration={1000}
+            href="#"
           >
             Sobre mim
           </Link>
@@ -25,6 +26,7 @@ const Header = () => {
             smooth={true}
             offset={-100}
             duration={1000}
+            href="#"
           >
             Projetos
           </Link>
@@ -35,6 +37,7 @@ const Header = () => {
             smooth={true}
             offset={-100}
             duration={1000}
+            href="#"
           >
             Contato
           </Link>

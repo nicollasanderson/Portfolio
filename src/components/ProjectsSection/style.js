@@ -1,12 +1,18 @@
 import styled from "styled-components";
 
 export const SectionMain = styled.section`
-  height: 700px;
+  height: 800px;
   width: 100%;
 
   .control-arrow {
     margin-top: 50%;
     width: 5%;
+  }
+
+  @media (max-width: 800px) {
+    .control-arrow {
+      display: none;
+    }
   }
 
   background: linear-gradient(
@@ -28,7 +34,7 @@ export const DivCard = styled.div`
   align-items: center;
   flex-flow: column;
   width: 50%;
-  height: 700px;
+  height: 800px;
   max-width: 600px;
 
   .stackSpan {
@@ -97,8 +103,11 @@ export const DivCard = styled.div`
     border-radius: 6px;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 800px) {
     width: 90%;
+    .control-arrow {
+      display: none;
+    }
   }
 
   img {
@@ -119,6 +128,11 @@ export const DivCard = styled.div`
 
     p {
       text-align: justify;
+      margin: 20px 0;
+      width: 90%;
+      padding: 10px 0;
+      border-bottom: 2px solid;
+      border-top: 2px solid;
     }
 
     h3 {
@@ -129,11 +143,11 @@ export const DivCard = styled.div`
     }
 
     figure {
-      width: 500px;
+      width: 550px;
       margin: 0 auto;
     }
 
-    @media (max-width: 700px) {
+    @media (max-width: 800px) {
       width: 100%;
 
       figure {

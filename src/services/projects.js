@@ -2,7 +2,7 @@ export const projects = [
   {
     name: "Jogos de Azar",
     img: "https://i.imgur.com/ZJzzmFl.png",
-    desc: "Projeto em grupo realizado no primeiro módulo da Kenzie Academy Brasil, onde podemos por em prática todos os conhecimentos aprendidos de HTML, CSS e JavaScript. Foram feitos dois jogos de azar, um caça niquel e um caça palavras com o objetivo de treinar os conhecimentos",
+    desc: "Projeto realizado no primeiro módulo da Kenzie Academy Brasil, onde podemos por em prática todos os conhecimentos aprendidos de HTML, CSS e JavaScript. Foram feitos dois jogos de azar, um caça niquel e um caça palavras com o objetivo de treinar os conhecimentos",
     git: "https://github.com/nicollasanderson/ksociety-jogos-de-azar",
     demo: "https://nicollasanderson.github.io/ksociety-jogos-de-azar/",
     stack: "Front-end",
@@ -10,7 +10,7 @@ export const projects = [
   {
     name: "Torre de Hanoi",
     img: "https://i.imgur.com/QYhpkg5.png",
-    desc: "Projeto realizado em dupla onde reproduzimos o jogo Torre de Hanoi com 3 níveis de dificuldade e verificações de vitória, utilizando apenas HTML, CSS e JavaScript.",
+    desc: "A torre de Hanoi é um jogo de encaixe com 3 níveis de dificuldade, foi construído utilizando HTML, CSS e Javascript.",
     git: "https://github.com/nicollasanderson/Torre-de-Hanoi",
     demo: "https://nicollasanderson.github.io/Torre-de-Hanoi/",
     stack: "Front-end",
@@ -34,7 +34,7 @@ export const projects = [
   {
     name: "Burguer Kenzie",
     img: "https://i.imgur.com/GwDPeQJ.png",
-    desc: "A Burguer Kenzie é uma pequena hamburgueria virtual, onde é possível adicionar e remover produtos do carrinho e vizualizar o preço total dos produtos, além de ter um filtro de pesquisa robusto. Feito em React, Html, Css e JavaScript.",
+    desc: "A Burguer Kenzie é uma pequena hamburgueria virtual feita em React, Html, Css e JavaScript.",
     git: "https://github.com/nicollasanderson/Burguer-Kenzie",
     demo: "https://react-entrega-s1-hamburgueria-da-kenzie-nicollasanderson.vercel.app/",
     stack: "Front-end",
@@ -42,7 +42,7 @@ export const projects = [
   {
     name: "G4mes Hub",
     img: "https://i.imgur.com/wBett4k.png",
-    desc: "O G4mes Hub é uma plataforma de interação entre jogadores de todo o mundo. Aqui, você pode deixar sua opinião sobre diversos jogos, além de deixar seu link e uma pontuação. Projeto em grupo feito no final do 3° módulo de React.",
+    desc: "O G4mes Hub é uma plataforma de interação entre jogadores de todo o mundo. Aqui, você pode deixar sua opinião sobre diversos jogos, além de deixar seu link e uma pontuação. Projeto feito no final do 3° módulo de React.",
     git: "https://github.com/victor-sagulo/capstone-m3-projeto-final",
     demo: "https://capstone-m3-projeto-final.vercel.app/",
     stack: "Front-end",
@@ -50,7 +50,7 @@ export const projects = [
   {
     name: "Music Club Shop API",
     img: "https://i.imgur.com/gKNHmfF.png",
-    desc: "API Restful feita com o objetivo de gerenciar uma loja de instrumentos e materiais musicais. Usuários podem se cadastrar, adicionar produtos ao carrinho e enviar para o endereço desejado. Projeto em grupo feito com Node.js, Typescript e Postgresql para o capstone do 4° módulo da Kenzie Academy Brasil.",
+    desc: "API Restful feita com o objetivo de gerenciar uma loja de instrumentos e materiais musicais. Usuários podem se cadastrar, adicionar produtos ao carrinho e enviar para o endereço desejado. Projeto feito com Node.js, Typescript e Postgresql para o capstone do 4° módulo da Kenzie Academy Brasil.",
     git: "https://github.com/nicollasanderson/music-club-shop-api",
     demo: "https://api-music-club-shop.herokuapp.com/",
     stack: "Back-end",

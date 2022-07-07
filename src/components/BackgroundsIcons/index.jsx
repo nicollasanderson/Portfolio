@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   DiReact,
   DiHtml5,
@@ -26,40 +26,48 @@ import {
 import { IconsDiv } from "./style";
 
 const BackgroundIcons = () => {
-  const Icons = [
-    <DiReact />,
-    <DiHtml5 />,
-    <DiDjango />,
-    <DiJsBadge />,
-    <DiGithubBadge />,
-    <DiHeroku />,
-    <DiCodeBadge />,
-    <DiChrome />,
-    <DiCss3 />,
-    <DiDatabase />,
-    <DiDocker />,
-    <DiLinux />,
-    <DiPostgresql />,
-    <DiPython />,
-    <DiStackoverflow />,
-    <DiTerminal />,
-    <DiUbuntu />,
-    <DiWindows />,
-    <DiVisualstudio />,
-    <DiTerminalBadge />,
-    <DiNodejsSmall />,
-    <DiNodejs />,
-  ];
+  const [elements] = useState([]);
+
+  useEffect(() => {
+    const Icons = [
+      <DiReact />,
+      <DiHtml5 />,
+      <DiDjango />,
+      <DiJsBadge />,
+      <DiGithubBadge />,
+      <DiHeroku />,
+      <DiCodeBadge />,
+      <DiChrome />,
+      <DiCss3 />,
+      <DiDatabase />,
+      <DiDocker />,
+      <DiLinux />,
+      <DiPostgresql />,
+      <DiPython />,
+      <DiStackoverflow />,
+      <DiTerminal />,
+      <DiUbuntu />,
+      <DiWindows />,
+      <DiVisualstudio />,
+      <DiTerminalBadge />,
+      <DiNodejsSmall />,
+      <DiNodejs />,
+    ];
+
+    [...Array(300)].map((e, i) => {
+      let number = Math.random() * 23;
+      let index = Math.floor(number);
+      return elements.push(
+        <React.Fragment key={Math.random() * 999}>
+          {Icons[index]}
+        </React.Fragment>
+      );
+    });
+  }, [elements]);
 
   return (
     <IconsDiv>
-      <div>
-        {[...Array(300)].map((e, i) => {
-          let number = Math.random() * 23;
-          let index = Math.floor(number);
-          return <React.Fragment key={i}>{Icons[index]}</React.Fragment>;
-        })}
-      </div>
+      <div>{elements.map((element) => element)}</div>
     </IconsDiv>
   );
 };

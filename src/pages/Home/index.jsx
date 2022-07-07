@@ -7,6 +7,7 @@ import TecsDisplay from "../../components/TecsDisplay";
 import AboutMe from "../../components/AboutMe";
 import Footer from "../../components/Footer";
 import ProjectsSection from "../../components/ProjectsSection";
+import ContactSection from "../../components/ContactSection";
 
 const Home = () => {
   const { word } = MainTypingText(
@@ -21,6 +22,7 @@ const Home = () => {
         <TecsDisplay word={word} />
         <AboutMe />
         <ProjectsSection />
+        <ContactSection />
         <Footer />
       </StyledMain>
     </>

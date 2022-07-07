@@ -20,6 +20,6 @@ export const IconsDiv = styled.div`
   }
   > div {
     position: absolute;
-    margin-top: 545px;
+    margin-top: 600px;
   }
 `;
