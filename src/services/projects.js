@@ -2,7 +2,7 @@ export const projects = [
   {
     name: "Jogos de Azar",
     img: "https://i.imgur.com/ZJzzmFl.png",
-    desc: "Projeto realizado no primeiro módulo da Kenzie Academy Brasil, onde podemos por em prática todos os conhecimentos aprendidos de HTML, CSS e JavaScript. Foram feitos dois jogos de azar, um caça niquel e um caça palavras com o objetivo de treinar os conhecimentos",
+    desc: "Projeto realizado no primeiro módulo da Kenzie Academy Brasil, onde podemos por em prática todos os conhecimentos aprendidos de HTML, CSS e JavaScript. Foram feitos dois jogos de azar, um caça niquel e um caça palavras com o objetivo de treinar os conhecimentos.",
     git: "https://github.com/nicollasanderson/ksociety-jogos-de-azar",
     demo: "https://nicollasanderson.github.io/ksociety-jogos-de-azar/",
     stack: "Front-end",
