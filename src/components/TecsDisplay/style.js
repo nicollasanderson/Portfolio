@@ -72,4 +72,7 @@ export const DivContainer = styled.section`
       height: 90px;
     }
   }
+  @media (max-width: 400px) {
+    height: 120vh;
+  }
 `;

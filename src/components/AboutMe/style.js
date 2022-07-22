@@ -28,16 +28,15 @@ export const StyledSection = styled.section`
     display: flex;
     background: rgb(122, 9, 173);
     background: linear-gradient(
-      135deg,
-      rgba(236, 175, 100, 1) 0%,
-      rgba(219, 149, 62, 1) 16%,
-      rgba(169, 11, 186, 1) 35%,
-      rgba(130, 53, 200, 1) 59%,
-      rgba(44, 101, 173, 1) 83%,
-      rgba(84, 155, 193, 1) 99%
+      105deg,
+      rgba(9, 56, 173, 1),
+      rgba(56, 10, 117, 1),
+      rgba(134, 11, 186, 1),
+      rgba(186, 11, 144, 1),
+      rgba(186, 11, 56, 1)
     );
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    animation: gradient 10s ease infinite;
     img {
       object-fit: cover;
       width: 300px;
@@ -66,7 +65,7 @@ export const StyledSection = styled.section`
   h1 {
     text-align: center;
     font-size: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     padding-top: 50px;
   }
 

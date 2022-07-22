@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SectionMain = styled.section`
-  height: 500px;
+  height: 600px;
 
   #instagram svg * {
     fill: url(#rg);
@@ -21,7 +21,7 @@ export const SectionMain = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
 
     a {
       color: transparent;

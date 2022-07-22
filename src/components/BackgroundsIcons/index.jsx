@@ -22,6 +22,11 @@ import {
   DiTerminalBadge,
   DiNodejsSmall,
   DiNodejs,
+  DiDebian,
+  DiGit,
+  DiFirefox,
+  DiPhotoshop,
+  DiPhp,
 } from "react-icons/di";
 import { IconsDiv } from "./style";
 
@@ -52,6 +57,11 @@ const BackgroundIcons = () => {
       <DiTerminalBadge />,
       <DiNodejsSmall />,
       <DiNodejs />,
+      <DiDebian />,
+      <DiGit />,
+      <DiFirefox />,
+      <DiPhotoshop />,
+      <DiPhp />,
     ];
 
     [...Array(300)].map((e, i) => {

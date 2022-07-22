@@ -35,7 +35,7 @@ const ProjectsSection = () => {
           swipeScrollTolerance={10}
           preventMovementUntilSwipeScrollTolerance
         >
-          {projects.map(({ name, img, desc, git, demo, stack }) => {
+          {projects.map(({ name, img, desc, git, demo, stack, role }) => {
             return (
               <DivCard key={name}>
                 <motion.div>
@@ -54,18 +54,16 @@ const ProjectsSection = () => {
                     <img src={img} alt="Imagem de um projeto front-end." />
                     <figcaption>A imagem de um projeto front-end.</figcaption>
                   </figure>
+                  {role && <h4>Role: {role}</h4>}
                   <p>{desc}</p>
-                  <motion.span
-                    className="linksSpan"
-                    whileHover={{ scale: 1.2 }}
-                  >
+                  <span className="linksSpan">
                     <a
                       href={git}
                       target="_blank"
                       className="link_git"
                       rel="noreferrer"
                     >
-                      <span className="backgroundSpan">GitHub</span>
+                      GitHub
                     </a>
                     {demo !== "#" && (
                       <a
@@ -74,10 +72,10 @@ const ProjectsSection = () => {
                         className="link_demo"
                         rel="noreferrer"
                       >
-                        <span className="backgroundSpan">Demo</span>
+                        Demo
                       </a>
                     )}
-                  </motion.span>
+                  </span>
                 </motion.div>
               </DivCard>
             );

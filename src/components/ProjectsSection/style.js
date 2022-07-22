@@ -17,10 +17,12 @@ export const SectionMain = styled.section`
 
   background: linear-gradient(
     105deg,
-    rgba(56, 10, 117, 1),
-    rgba(134, 11, 186, 1),
-    rgba(186, 11, 144, 1)
+    rgba(56, 10, 117, 0.7),
+    rgba(134, 11, 186, 0.7),
+    rgba(186, 11, 144, 0.7)
   );
+
+  background-color: black;
 
   li {
     display: flex;
@@ -69,6 +71,9 @@ export const DivCard = styled.div`
       #ffcc70 100%
     );
   }
+  .control-arrow {
+    z-index: 0;
+  }
 
   .linksSpan {
     margin: 20px 0;
@@ -77,24 +82,15 @@ export const DivCard = styled.div`
       text-decoration: none;
       color: white;
       text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
-      padding: 12px 2px;
+      padding: 10px;
+      border-radius: 7px;
+      border: 2px solid #4158d0;
+      transition: 0.2s linear;
+
+      &:hover {
+        background-color: #4158d0;
+      }
     }
-  }
-
-  .link_git {
-    border-radius: 7px;
-    background: rgb(25, 185, 57);
-    background: linear-gradient(
-      71deg,
-      rgba(25, 185, 57, 1) 0%,
-      rgba(255, 248, 0, 1) 100%
-    );
-  }
-
-  .link_demo {
-    border-radius: 7px;
-    background-color: #ffe53b;
-    background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
   }
 
   .backgroundSpan {
@@ -131,8 +127,6 @@ export const DivCard = styled.div`
       margin: 20px 0;
       width: 90%;
       padding: 10px 0;
-      border-bottom: 2px solid;
-      border-top: 2px solid;
     }
 
     h3 {

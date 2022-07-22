@@ -26,7 +26,7 @@ export const projects = [
   {
     name: "Kenzie Hub",
     img: "https://i.imgur.com/rWy7AVD.png",
-    desc: "Projeto com o objetivo de armazenar as linguagens aprendidas e a proficiência em cada uma delas. Feito em React, Html, Css e JavaScript.",
+    desc: "Projeto com o objetivo de armazenar as linguagens aprendidas e a proficiência em cada uma delas. Feito em React, Html, Css e JavaScript. User: teste-top@teste.com Senha: 123456",
     git: "https://github.com/nicollasanderson/Kenzie-Hub",
     demo: "https://react-entrega-s2-kenzie-hub-nicollasanderson-nv7llcgr0.vercel.app/",
     stack: "Front-end",
@@ -46,6 +46,7 @@ export const projects = [
     git: "https://github.com/victor-sagulo/capstone-m3-projeto-final",
     demo: "https://capstone-m3-projeto-final.vercel.app/",
     stack: "Front-end",
+    role: "Product Owner",
   },
   {
     name: "Music Club Shop API",
@@ -54,10 +55,11 @@ export const projects = [
     git: "https://github.com/nicollasanderson/music-club-shop-api",
     demo: "https://api-music-club-shop.herokuapp.com/",
     stack: "Back-end",
+    role: "Tech Lead",
   },
   {
     name: "Empresa Python",
-    img: "https://www.digitalhouse.com/br/blog/content/images/size/w2000/2022/05/DH_blog_thumb_11.05.jpg",
+    img: "https://t3.ftcdn.net/jpg/01/16/75/94/360_F_116759427_l4AGnmouXXUnW4YGKHJrmYHoMrBpjh0L.jpg",
     desc: "Sistema simples de gerenciamento de uma empresa, onde é possível criar uma empresa, funcionários e genrentes e associar elas entre si, além de salvar a empresa em um arquivo json. Projeto feito com o objetivo de aprender as bases de Python para realizar a criação de API's Restful.",
     git: "https://github.com/nicollasanderson/Empresa-Python",
     demo: "#",
@@ -65,7 +67,7 @@ export const projects = [
   },
   {
     name: "Kenzie Pet",
-    img: "https://www.digitalhouse.com/br/blog/content/images/size/w2000/2022/05/DH_blog_thumb_11.05.jpg",
+    img: "https://t3.ftcdn.net/jpg/01/16/75/94/360_F_116759427_l4AGnmouXXUnW4YGKHJrmYHoMrBpjh0L.jpg",
     desc: "API Restful simples para cadastrar animais, suas espécies e características. Projeto feito com Python, Django e Rest Framework.",
     git: "https://github.com/nicollasanderson/Kenzie-Pet",
     demo: "#",

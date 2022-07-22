@@ -7,6 +7,7 @@ export const IconsDiv = styled.div`
   z-index: -1;
   gap: 1px;
   width: 120%;
+  min-width: 2000px;
 
   svg {
     overflow: hidden;

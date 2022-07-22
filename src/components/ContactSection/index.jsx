@@ -4,6 +4,7 @@ import {
   AiFillLinkedin,
   AiFillGithub,
   AiOutlineInstagram,
+  AiFillYoutube,
 } from "react-icons/ai";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -90,6 +91,19 @@ const ContactSection = () => {
         >
           Whatsapp
           <AiOutlineWhatsApp style={{ color: "#27D366" }} />
+        </motion.a>
+        <motion.a
+          initial={{ opacity: 0, y: -200 }}
+          animate={{ opacity: 1, y: 0, transition: { duration: 2 } }}
+          whileHover="hover"
+          variants={hoverVariant}
+          href="https://youtube.com/user/SrCraftt"
+          target="_blank"
+          rel="noreferrer"
+          id="youtube"
+        >
+          YouTube
+          <AiFillYoutube style={{ color: "red" }} />
         </motion.a>
         <motion.a
           initial={{ opacity: 0, y: -200 }}

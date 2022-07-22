@@ -68,6 +68,20 @@ const TecsDisplay = ({ word }) => {
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
           alt="Typescript logo"
         />
+        <motion.img
+          whileHover={{ scale: 1.3 }}
+          drag
+          dragConstraints={constraintsRef}
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+          alt="Typescript logo"
+        />
+        <motion.img
+          whileHover={{ scale: 1.3 }}
+          drag
+          dragConstraints={constraintsRef}
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg"
+          alt="Typescript logo"
+        />
       </motion.section>
     </DivContainer>
   );

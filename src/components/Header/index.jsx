@@ -2,9 +2,9 @@ import { Link } from "react-scroll";
 import LogoName from "../LogoName";
 import { StyledHeader } from "./style";
 
-const Header = () => {
+const Header = ({ className }) => {
   return (
-    <StyledHeader>
+    <StyledHeader className={className}>
       <div>
         <LogoName>Nicollas Dev</LogoName>
         <nav>
