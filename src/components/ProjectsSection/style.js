@@ -39,6 +39,21 @@ export const DivCard = styled.div`
   height: 800px;
   max-width: 600px;
 
+  .iconFigure {
+    width: 30px;
+    height: 30px;
+    margin: 15px 10px 5px 10px;
+    img {
+      margin: 0;
+    }
+  }
+
+  .iconsContainer {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+
   .stackSpan {
     padding: 2px;
     border-radius: 7px;

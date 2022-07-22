@@ -35,7 +35,7 @@ const ProjectsSection = () => {
           swipeScrollTolerance={10}
           preventMovementUntilSwipeScrollTolerance
         >
-          {projects.map(({ name, img, desc, git, demo, stack, role }) => {
+          {projects.map(({ name, img, desc, git, demo, stack, role, used }) => {
             return (
               <DivCard key={name}>
                 <motion.div>
@@ -50,6 +50,19 @@ const ProjectsSection = () => {
                   >
                     <h4>{stack}</h4>
                   </motion.span>
+                  <div className="iconsContainer">
+                    {used.map((element) => {
+                      return (
+                        <figure className="iconFigure">
+                          <img
+                            src={element}
+                            alt="Icon da linguagem utilizada nessa aplicação."
+                          />
+                          <figcaption>Icon da linguagem utilizada</figcaption>
+                        </figure>
+                      );
+                    })}
+                  </div>
                   <figure>
                     <img src={img} alt="Imagem de um projeto front-end." />
                     <figcaption>A imagem de um projeto front-end.</figcaption>

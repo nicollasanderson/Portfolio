@@ -6,6 +6,11 @@ export const projects = [
     git: "https://github.com/nicollasanderson/ksociety-jogos-de-azar",
     demo: "https://nicollasanderson.github.io/ksociety-jogos-de-azar/",
     stack: "Front-end",
+    used: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    ],
   },
   {
     name: "Torre de Hanoi",
@@ -14,6 +19,11 @@ export const projects = [
     git: "https://github.com/nicollasanderson/Torre-de-Hanoi",
     demo: "https://nicollasanderson.github.io/Torre-de-Hanoi/",
     stack: "Front-end",
+    used: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    ],
   },
   {
     name: "Nu Kenzie",
@@ -22,6 +32,12 @@ export const projects = [
     git: "https://github.com/nicollasanderson/Nu-Kenzie",
     demo: "https://nukenzie-nicollasanderson.vercel.app/",
     stack: "Front-end",
+    used: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+    ],
   },
   {
     name: "Kenzie Hub",
@@ -30,6 +46,12 @@ export const projects = [
     git: "https://github.com/nicollasanderson/Kenzie-Hub",
     demo: "https://react-entrega-s2-kenzie-hub-nicollasanderson-nv7llcgr0.vercel.app/",
     stack: "Front-end",
+    used: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+    ],
   },
   {
     name: "Burguer Kenzie",
@@ -38,6 +60,12 @@ export const projects = [
     git: "https://github.com/nicollasanderson/Burguer-Kenzie",
     demo: "https://react-entrega-s1-hamburgueria-da-kenzie-nicollasanderson.vercel.app/",
     stack: "Front-end",
+    used: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+    ],
   },
   {
     name: "G4mes Hub",
@@ -47,6 +75,12 @@ export const projects = [
     demo: "https://capstone-m3-projeto-final.vercel.app/",
     stack: "Front-end",
     role: "Product Owner",
+    used: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+    ],
   },
   {
     name: "Music Club Shop API",
@@ -56,6 +90,9 @@ export const projects = [
     demo: "https://api-music-club-shop.herokuapp.com/",
     stack: "Back-end",
     role: "Tech Lead",
+    used: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    ],
   },
   {
     name: "Empresa Python",
@@ -64,6 +101,9 @@ export const projects = [
     git: "https://github.com/nicollasanderson/Empresa-Python",
     demo: "#",
     stack: "Back-end",
+    used: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+    ],
   },
   {
     name: "Kenzie Pet",
@@ -72,5 +112,9 @@ export const projects = [
     git: "https://github.com/nicollasanderson/Kenzie-Pet",
     demo: "#",
     stack: "Back-end",
+    used: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg",
+    ],
   },
 ];
